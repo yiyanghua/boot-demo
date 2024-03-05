@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableConfigurationProperties(DemoProperties.class)
 public class DemoAutoConfiguration {
-
     @Bean
     public DemoModule demoModule(DemoProperties p) {
         DemoModule m = new DemoModule();
