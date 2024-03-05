@@ -1,3 +1,6 @@
 tet:
   name: haha
   version: v1
+  addr :
+    - add1
+    - add2
